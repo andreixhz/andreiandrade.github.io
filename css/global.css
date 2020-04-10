@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+}
+
+/* Header */
+.top-container{
+    height: 245px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 35px;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    margin-top:47px;
+    margin-bottom: 56px;
+}
+
+.picture{
+    height: 88px;
+    width: 88px;
+    background-image: url("../img/pp.jpg");
+    background-size: contain;
+    border-radius: 50px;
+    margin-right    : 20px;
+}
+
+.top-info h1{
+    font-family: 'Open Sans', sans-light;
+    font-weight: 300;
+    font-size: 29px;
+    color: #434343;
+}
+
+.top-info h2{
+    font-family: 'Open Sans', sans-light;
+    font-weight: 300;
+    font-size: 22px;
+    color: #707070;
+}
+
+.menu a{
+    font-family: 'Open Sans', sans-regular;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    cursor: pointer;
+}
+
+.d-select{
+    color: #444444;
+}
+
+.d-uselect{
+    color: #919191;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about div{
+    width: 306px;
+    margin-bottom: 50px;
+}
+
+.about div h3{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-regular;
+    font-weight: 400;
+    color: #2b2b2b;
+    margin-bottom: 16px;
+}
+
+.about div p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-regular;
+    font-weight: 400;
+    color: #646464;
+    margin-bottom: 16px;
+}
